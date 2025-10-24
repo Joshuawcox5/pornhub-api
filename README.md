@@ -90,17 +90,17 @@ for video in client.getVideos(10, page=2, full_data=True):
 
 #### Get more information about the single video
 
-Method `getVideo(url, viewkey)` gives more detail information about a single video
+Method `getVideo(url)` gives more detail information about a single video
 
 ```python
 client = pornhub.PornHub()
 
 # You can input the full video url, like that
-video = client.getVideo("https://www.pornhub.com/view_video.php?viewkey=SOMEKEY")
+video = client.getVideo("https://www.pornhub.com/view_video.php?v)
 # Or that
-video = client.getVideo(url="https://www.pornhub.com/view_video.php?viewkey=SOMEKEY")
+video = client.getVideo(url="https://www.pornhub.com/view_video.php?)
 # Or input only viewkey, like that
-video = client.getVideo(viewkey="SOMEKEY")
+video = client.getVideo
 
 print(video)
 print(video["title"])
@@ -132,15 +132,7 @@ If the video is not available in your country, in `title` will **"Video not avai
 
 ## Contributors
 
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/SashaSZ"><img src="https://avatars.githubusercontent.com/u/88130296?v=4" width="100px;" alt=""/><br /><sub><b>SashaSZ</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/CprogrammerIbrahim"><img src="https://avatars1.githubusercontent.com/u/40497100?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Ibrahim Ipek</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/kittinan"><img src="https://avatars0.githubusercontent.com/u/144775?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Kittinan</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/fantomnotabene"><img src="https://avatars2.githubusercontent.com/u/9576189?s=460&u=7a9639ad287e7070220b22975dbab87b0228611f&v=4" width="100px;" alt=""/><br /><sub><b>Елизаров Роман Русланович</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/IThinkImOKAY"><img src="https://avatars3.githubusercontent.com/u/61555147?s=460&u=34c57df77de20121b0e298effe4092e32dd16ee1&v=4" width="100px;" alt=""/><br /><sub><b>IThinkImOKAY</b></sub></a><br /></td>
-  </tr>
-<table>
+https://www.joshuawcox5@user.noreply.github.com?/
 
 ## License
 

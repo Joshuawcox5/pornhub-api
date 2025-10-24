@@ -3,7 +3,7 @@ import pornhub
 search_keywords = []
 
 #client = pornhub.PornHub("5.135.164.72", 3128, search_keywords)
-#With proxy, given a Proxy IP and Port. For the countries with restricted access like Turkey, etc.
+#With proxy, given a Proxy IP and Port. 
 
 client = pornhub.PornHub(search_keywords)
 
